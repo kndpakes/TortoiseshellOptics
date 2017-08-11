@@ -1,0 +1,136 @@
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	
+}
+
+}
+html {
+	font-family: Helvetics, Arial, sans-serif;
+	font-size: 18px;
+}
+#banner {
+	background-image: url("../images/glasses.png");
+	height: 31rem;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: block;
+}
+
+#header {
+	color: white;
+	background-color: cadetblue;
+	display: flex;
+	align-items: center;
+	font-size: 1rem;
+	height: 3rem;
+	border: 1px solid red;
+	margin-top: 1rem;
+}
+#header .placeholder {
+	justify-content: flex-end;
+	display: flex;
+}
+.placeholder {
+	display: flex;
+	justify-content: flex-end;
+}
+
+
+.motto {
+	 color: black;
+	 background-color: white;
+	 border: 1px solid red;
+	 display: inline-block;
+	 margin-top: 10rem;
+	 margin-right: -2rem;
+	
+}
+h1 {
+	 display: block;
+	 padding: 1.5rem 5rem;
+	 font-size: 2rem;
+	 font-weight: bold;
+	 line-height: 1.2;
+	 
+	 
+ }
+nav a {
+	color: white;
+	padding: 1rem 2rem 1rem 0;
+	text-decoration: none;
+}
+nav {
+	justify-content: flex-end;
+	border: 1px solid red;
+}
+.company {
+	display: flex;
+	 flex-grow: 1;
+	 border: 1px solid red;
+	 align-items: center;
+ }
+.company img {
+	 height: 1.5rem;
+	 padding: 0 1rem 0 2rem;
+ }
+ .icons {
+	 display: flex;
+	 justify-content: space-between;
+	 margin: 3rem 10rem;
+ }
+ .info {
+	 display: flex;
+	 justify-content: center;
+	 
+	 
+ }
+ .item {
+	 width: 35%;
+	 margin-right: 5%;
+ }
+ .item h2 {
+	 color: white;
+	 background-color: cadetblue;
+	 font-size: 1rem;
+	 font-weight: bold;
+	 padding: 0.5rem 0 0.5rem 1.25rem;
+	 width: 10rem;
+	 
+	 
+ }
+ #footer {
+	 color: white;
+	 background-color: azure;
+	 height: 9.5rem;
+	 align-items: center;
+	 display: flex;
+	 margin-top: 5rem;
+ }
+ #footer img {
+	 height: 1.5rem;
+	 padding: 4rem 1rem 4rem 4rem; 
+ }
+ #footer span {
+	 color: black;
+ }
+ 
+ @media only screen and (max-width: 1060px) {
+	 .container {
+		 width: 100%;
+	 }
+	h1 {
+	 padding: 0.75rem 4rem;
+	 font-size: 1.33rem;
+	 }	 
+	 
+#banner {
+	height: 22rem;
+}	 
+	 
+.motto {
+	 margin-top: 5rem;
+	 margin-right: 2rem;
+	 }
+ }
